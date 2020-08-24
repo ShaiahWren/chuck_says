@@ -8,6 +8,139 @@ html {
 
 body {
     font-size: 1rem;
-    margin: 0;
+    margin: 10%;
     padding: 0;
+    background-color: #000080;
+    border-block-color: #add8e6;
+    display: flex;
+    flex-direction: column;
+
 }
+
+#chuckSays {
+    height: 200px;
+    width: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000080;
+    background-color:white;
+    /* margin: 10px; */
+    padding: 40px 20px 40px 20px;
+    border-radius: 15px;
+    /* border: 2px solid #add8e6; */
+    font-size: larger;
+
+}
+
+#refreshQuote {
+    border-radius: 14px;
+    padding: 16px 32px 16px 32px;
+    margin: 4px;
+    background-color: white;
+    color: #000080;
+    font-size: medium;
+}
+
+#refreshQuote:hover {
+
+    color: white;
+    background-color: #000080;
+    border: 2px solid white;
+  
+}
+
+#refreshQuote:focus {
+    outline: none;
+}
+
+#quoteGenerator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ #submitForm {
+    border-radius: 14px;
+    padding: 16px 32px 16px 32px;
+    margin: 16px;
+    background-color: white;
+    color: #000080;
+    font-size: medium;
+}
+
+#submitForm:focus {
+    outline: none;
+}
+
+#categoryInput {
+    border-radius: 14px;
+    padding: 16px 32px 16px 32px;
+    margin: 16px;
+    background-color: white;
+    color: #000080;
+    font-size: medium;
+}
+
+#categoryInput:focus {
+    outline: none;
+} 
+    
+@media screen and (min-width: 320px) {
+    #chuckSays {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 20px;
+        width: 200px;
+
+    }
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    #chuckSays {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 20px;
+        width: 300px;
+
+    }
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px;
+        margin-right: 20px;
+        align-content: center;
+        margin-top: 200px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    #chuckSays {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 20px;
+        width: 600px;
+        padding: 40px;
+        padding-top: 20px;
+
+    }
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px;
+        margin-right: 20px;
+        align-content: center;
+        margin-top: 200px;
+    }
+}
+    

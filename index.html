@@ -6,7 +6,21 @@
         <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
-        <p>ChuckSays</p>
-        <form action="#"></form>
+        <div id="quoteGenerator">
+            <p id="chuckSays">Chuck says...</p>
+            <button id="refreshQuote"></button>
+          
+       
+        <form>
+            <label>
+                <!-- Choose a category -->
+                <input type="text" value="" id="categoryInput" name="categoryInput" required placeholder="Choose category:">
+            </label>
+            <button type="submit" id="submitForm">Get an animal quote</button>
+        </form>
+        </div>
+       
     </body>
+    <script src="scripts/get.js"></script>
+    <script src="scripts/index.js"></script>
 </html>
